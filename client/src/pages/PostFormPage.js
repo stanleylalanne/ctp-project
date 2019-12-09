@@ -10,7 +10,7 @@ class PostFormPage extends React.Component {
 
   contentChanged = (event) => {
     this.setState({
-      content: event.target.value
+      content: event.target.value,
     });
   }
 
@@ -21,7 +21,9 @@ class PostFormPage extends React.Component {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({content: this.state.content}),
+      body: JSON.stringify({
+        content: this.state.content,
+      }),
     })
       .then(res => {
         if(res.ok) {
@@ -58,13 +60,15 @@ class PostFormPage extends React.Component {
       <div className="col-10 col-md-8 col-lg-7">
         { errorMessage }
         <div className="input-group">
-          <input 
+        
+          <textarea 
             type="text" 
             placeholder="Add your words of wisdom here..." 
             value={this.state.content}
             className="form-control mr-3 rounded"
             onChange={this.contentChanged}
           />
+
           <button className="btn btn-primary" onClick={this.savePost}>Save Post</button>
         </div>
       </div>
