@@ -1,0 +1,174 @@
+html{
+    position: absolute;
+    background: #E4EBEF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 16px;
+}
+
+/* navbar */
+
+nav{
+position: absolute;
+width: 1340px;
+height: 68px;
+
+background: #FFFFFF;
+transform: rotate(0.11deg);
+
+}
+/* Rectangle 3 */
+
+/* 
+position: absolute;
+width: 228px;
+height: 30px;
+
+background: #C4C4C4;
+border-radius: 10px;
+
+
+/* Ellipse 1 */
+
+/* 
+position: absolute;
+width: 29px;
+height: 30px;
+
+background: url(slalanne.jpg), #C4C4C4; */
+
+
+/* Rectangle 4 */
+
+/* 
+position: absolute;
+width: 31px;
+height: 30px;
+
+background: #C4C4C4;
+border-radius: 5px; */
+
+
+/* logo */
+/* 
+
+position: absolute;
+width: 117px;
+height: 40px;
+
+background: #C4C4C4;
+border-radius: 7px; */
+
+
+/* logo-text */
+
+/* 
+position: absolute;
+width: 40px;
+height: 19px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px; */
+/* identical to box height */
+
+/* 
+color: #000000;
+ */
+
+
+/* SEARCH */
+
+/* 
+position: absolute;
+width: 54px;
+height: 19px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px; */
+/* identical to box height */
+
+/* 
+color: #000000; */
+
+
+
+/* FORUM */
+
+/* 
+position: absolute;
+width: 51px;
+height: 19px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+identical to box height */
+
+/* 
+color: #000000;
+ */
+
+
+/* FORUM */
+
+/* 
+position: absolute;
+width: 51px;
+height: 19px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px; */
+/* identical to box height */
+
+/* 
+color: #000000;
+
+ */
+
+/* PROJECTS */
+
+/* 
+position: absolute;
+width: 66px;
+height: 19px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px; */
+/* identical to box height */
+
+/* 
+color: #000000;
+ */
+
+
+/* COMMUNITIES */
+
+/* 
+position: absolute;
+width: 100px;
+height: 19px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px; */
+/* identical to box height */
+
+
+/* color: #000000; */
