@@ -16,11 +16,11 @@ class PostsListPage extends React.Component {
         this.setState({
           loading: false,
           posts: posts.map((p,ii) => <Post {...p} key={ii} />),
+        
         });
       })
       .catch(err => console.log("API ERROR: ", err));
   }
-
   render() {
     if(this.state.loading) {
       return <Loading />;
@@ -29,11 +29,12 @@ class PostsListPage extends React.Component {
     return (
       <div className="container-fluid text-center">
         <div className="row justify-content-center">
-          { this.state.posts }
+        { this.state.posts }
         </div>
       </div>
     );
   }
+
 }
 
 export default PostsListPage;

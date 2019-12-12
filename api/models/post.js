@@ -13,6 +13,9 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty: true,
       }
     },
+   title: {
+     type: DataTypes.STRING
+   },
   }, {
     sequelize,
     modelName: 'post'

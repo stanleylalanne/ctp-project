@@ -6,14 +6,15 @@ function Post({ title,content, createdAt, id }) {
     <div className="col-10 col-md-8 col-lg-7">
       <div className="card mb-4 shadow">
 
-      <div>
-          {title}
-        </div>
+      
 
         <div className="card-body card-text">
+          <h4>Content:</h4>
           <Link to={"/posts/"+id}>{ content }</Link>
         </div>
-        
+        <div>
+          {title}
+        </div>
         <div className="card-footer small text-muted text-right">
           { createdAt }
         </div>

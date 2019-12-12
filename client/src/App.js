@@ -10,6 +10,9 @@ import PostsListPage from './pages/PostsListPage';
 import PostFormPage from './pages/PostFormPage';
 import ShowPostPage from './pages/ShowPostPage';
 import AboutUsPage from './pages/AboutUsPage';
+import Signup from './pages/Signup';
+import Login from './pages/Login';
+import Homepage from './pages/Homepage';
 
 import './App.css';
 
@@ -43,10 +46,13 @@ class App extends React.Component {
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
               <Switch>
+              <Route path="/feed" component={PostsListPage} />
                 <Route path="/posts/new" component={PostFormPage} />
                 <Route path="/posts/:id" component={ShowPostPage} />
                 <Route path="/about-us" component={AboutUsPage} />
-                <Route path="/" component={PostsListPage} />
+                <Route path="/signup" component={Signup} />
+                <Route path="/login" component={Login}/>
+                <Route path="/" component={Homepage} />
               </Switch>
             </div>
           </div>
