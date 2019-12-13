@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
 import '../styles/Auth.css';
+import Navbar from '../components/Navbar';
 
 class Signup extends Component{
     render(){
         return(
+            <div>
+                <Navbar/>
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
@@ -36,12 +39,13 @@ class Signup extends Component{
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="../img/signup-image.jpg" alt="sing up image"/></figure>
+                        <figure><img src="https://i.ibb.co/0sBv5VB/signup-image.jpg" alt="signup-image"/></figure>
                         <a href="/login" class="signup-image-link">I am already member</a>
                     </div>
                 </div>
             </div>
         </section>
+        </div>
         )
     };
 }

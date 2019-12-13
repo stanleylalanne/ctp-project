@@ -42,7 +42,7 @@ class App extends React.Component {
   render() {
     return (
         <Router>
-          <Navigation />
+         
           <div className="container-fluid text-center">
             <div className="row justify-content-center">
               <Switch>

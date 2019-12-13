@@ -9,8 +9,10 @@ function Post({ title,content, createdAt, id }) {
       
 
         <div className="card-body card-text">
+        <p>{title}</p>
           <h4>Content:</h4>
           <Link to={"/posts/"+id}>{ content }</Link>
+          
         </div>
         <div>
           {title}

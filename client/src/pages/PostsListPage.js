@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from '../components/Post';
 import Loading from '../components/Loading';
+import Navbar from '../components/Navbar';
 
 
 class PostsListPage extends React.Component {
@@ -27,10 +28,13 @@ class PostsListPage extends React.Component {
     }
 
     return (
+      <div>
+        <Navbar/>
       <div className="container-fluid text-center">
         <div className="row justify-content-center">
         { this.state.posts }
         </div>
+      </div>
       </div>
     );
   }
